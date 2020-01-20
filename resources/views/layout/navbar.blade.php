@@ -14,7 +14,7 @@
       </li>
       <li class="nav-item dropdown {{ Request::is('inventario') ? 'active' : '' }}">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Inventario 2
+          Inventario
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Reporte de Inventario</a>

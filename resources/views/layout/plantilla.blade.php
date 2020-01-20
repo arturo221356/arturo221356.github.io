@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Promoviles 2.0</title>
+    <title>Promoviles - @yield('title')</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -15,21 +15,20 @@
 </head>
 
 <body>
-@include("layout.navbar")
-    <div class="container-fluid" >
-    <div style=" background-color:red">
+    @include("layout.navbar")
     
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-</div>
+    
+    <div class="container-fluid mt-5">
+        <div style=" background-color:red">
+
+            @section('container')
+            @yield('content')
+        </div>
+    </div>
 
 
 
-        
+
 
 
 
