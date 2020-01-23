@@ -30,7 +30,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="/usuarios">Lista de Usuarios</a>
-          <a class="dropdown-item" href="#">Nuevo Usuario</a>
+          <a class="dropdown-item" href="/usuarios/nuevo">Nuevo Usuario</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Productos</a>
         </div>
