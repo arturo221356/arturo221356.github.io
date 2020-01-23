@@ -19,10 +19,15 @@
     
     
     <div class="container-fluid mt-5">
-        <div style=" background-color:red">
+        
+        <div class="jumbotron jumbotron-fluid">
 
-            @section('container')
+
+            @yield('container')
             @yield('content')
+        
+
+        
         </div>
     </div>
 

@@ -3,14 +3,22 @@
 @section('title', 'Sucursales')
 
 @section('container')
- hola
+ 
+
+
+
+    @section('content')
+        @include('layout.tablesearch')    
+       
+        @include('layout.table')
+                
+        @endsection
+
+
+
 @endsection
 
 
 
 
 
-
-@section('content')
-    @include('layout.table')
-@endsection
