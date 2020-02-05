@@ -11,8 +11,14 @@
 |
 */
 
+
+use App\Sucursal;
+
 Route::get("/", "baseController@index");
 
 Route::get("/usuarios", "baseController@usuarios");
 
-Route::get("/sucursales", "baseController@sucursales");
+Route::resource('/sucursales','SucursalController');
+
+
+
